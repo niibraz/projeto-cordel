@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@500&display=swap');
+/* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Poppins:wght@500&display=swap');
+/* font-family: 'Architects Daughter', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+/* Header */
+.cabeca{
+    background-color: rgb(13, 13, 13);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-family:  'Poppins', sans-serif;
+    font-size: 18px;
+}
+header>p>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+header>p>a:hover{
+    color: #886355;
+}
+
+
+
+/* Main */
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+}
+section>p{
+    padding-bottom: 30px;
+}
+/* section>pre{
+    white-space: pre-line;
+} */
+section.normal{
+    background-color: #EAEBEA;
+    color: rgb(13, 13, 13);
+}
+section.imagem{
+    background-color: rgb(30, 30, 30);
+    color: whitesmoke;
+}
+section.imagem >p{
+    background-color:rgba(0, 0, 0, 0.419);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 400px;
+    border-radius: 8px;
+}
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+/* Footer */
+.final{
+    background-color: rgb(13, 13, 13);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+footer>p>a{
+    text-decoration:underline;
+    color: whitesmoke;
+}
+footer>p>a:hover{
+    color:blue;
+}
